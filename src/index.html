@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Reality Business Solutions</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="font-poppins bg-[#111827] text-[#F9FAFB] py-[40px] overflow-x-hidden">
+  
+  <!-- Header -->
+  <header class="w-[1200px] mx-auto xl:w-[1000px] lg:w-[800px] md:w-[600px] sm:w-[400px] xs:w-full xs:px-[1rem]">
+    <!-- Navigation Bar -->
+    <nav class="flex justify-between">
+      <!-- Left Nav -->
+      <div class="flex gap-[7.75px] items-center">
+        <img src="./img/svg/x-zone.svg" alt="title">
+        <h2 class="text-[20px]">Zone.</h2>
+      </div>
+      <!-- Right Nav (Desktop) -->
+      <div class="flex gap-[30px] items-center md:hidden">
+        <ul class="flex gap-[30px]">
+          <li>
+            <a href="#" class="relative after:absolute after:bottom-[-5px] after:left-0 after:right-0 after:mx-auto after:transition-all after:bg-gradient-to-r after:from-[#D946EF] after:via-[#2563EB] after:to-[#D946EF] after:w-0 after:h-[1px] hover:after:w-full">Home</a>
+          </li>
+          <li>
+            <a href="#" class="relative after:absolute after:bottom-[-5px] after:left-0 after:right-0 after:mx-auto after:transition-all after:bg-gradient-to-r after:from-[#D946EF] after:via-[#2563EB] after:to-[#D946EF] after:w-0 after:h-[1px] hover:after:w-full">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="relative after:absolute after:bottom-[-5px] after:left-0 after:right-0 after:mx-auto after:transition-all after:bg-gradient-to-r after:from-[#D946EF] after:via-[#2563EB] after:to-[#D946EF] after:w-0 after:h-[1px] hover:after:w-full">Service</a>
+          </li>
+          <li>
+            <a href="#" class="relative after:absolute after:bottom-[-5px] after:left-0 after:right-0 after:mx-auto after:transition-all after:bg-gradient-to-r after:from-[#D946EF] after:via-[#2563EB] after:to-[#D946EF] after:w-0 after:h-[1px] hover:after:w-full">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="relative after:absolute after:bottom-[-5px] after:left-0 after:right-0 after:mx-auto after:transition-all after:bg-gradient-to-r after:from-[#D946EF] after:via-[#2563EB] after:to-[#D946EF] after:w-0 after:h-[1px] hover:after:w-full">Blog</a>
+          </li>
+        </ul>
+        
+        <a href="#" class="bg-gradient-to-r from-[#2563EB] to-[#D946EF] px-[24px] py-[12px] rounded-[5px] transition-all hover:scale-105">Contact Us</a>
+      </div>
+      <!-- Right Nav (Mobile) -->
+      <div class="hidden md:flex relative">
+        <!-- Nav Button -->
+         <button id="nav-button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>          
+         </button>
+         <!-- Nav Links -->
+        <ul id="nav-menu" class="transition-all invisible opacity-0 flex flex-col gap-[10px] absolute bg-[#2563EB50] backdrop-blur-md p-[1rem] top-[3rem] right-0 z-10 rounded-b-[1rem] rounded-tl-[1rem] w-[600px] sm:w-[400px] xs:fixed xs:top-[5.5rem] xs:w-[90%] xs:right-[1rem]">
+          <li>
+            <a href="#" class="nav-link transition-all hover:pl-[1rem]">Home</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link transition-all hover:pl-[1rem]">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link transition-all hover:pl-[1rem]">Service</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link transition-all hover:pl-[1rem]">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link transition-all hover:pl-[1rem]">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Header Content -->
+    <div class="flex lg:flex-wrap-reverse">
+      <!-- Header Left Contet -->
+      <div class="flex flex-col justify-center relative">
+        <h1 class="text-[58px] font-bold bg-gradient-to-r from-[#2563EB] to-[#D946EF] bg-clip-text text-transparent lg:text-center sm:text-[42px] xs:text-[30px]">Virtual Reality <br> Business Solutions</h1>
+        <p class="mt-[29px] text-[15px] lg:text-center">We have over 15 year exprience in business consultting arena. We have over 15 year exprience in business consultting arena and artficial intelligence.</p>
+        <div class="mt-[31px] flex gap-[29px] lg:justify-center">
+          <a href="#" class="bg-gradient-to-r from-[#2563EB] to-[#D946EF] px-[40px] py-[20px] rounded-[6px] transition-all hover:scale-105">Join Us</a>
+          <a href="#" class="flex gap-[20px] items-center transition-all hover:scale-105">
+            <img src="./img/svg/Play.svg" alt="play" class="size-[36px]">
+            Watch video
+          </a>
+        </div>
+        <!-- Shape -->
+        <div class="bg-[#1D4ED873] w-[360px] h-[300px] rounded-full z-[-1] blur-[200px] absolute top-[-60px] left-[-100px]"></div>
+      </div>
+      <!-- Header Right Content -->
+      <div class="relative lg:flex lg:justify-center">
+        <img src="./img/Saly-19.png" alt="man picture" class="w-full lg:w-[60%]">
+        <!-- Shape -->
+        <div class="w-[340px] h-[280px] bg-[#5141DA] rounded-full z-[-1] blur-[200px] absolute top-[-50px] right-[-50px]"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <div class="w-[1200px] mx-auto mt-[60px] xl:w-[1000px] lg:w-[800px] md:w-[600px] sm:w-[400px] xs:w-full xs:px-[1rem]">
+    <!-- Services Top Section -->
+      <div class="text-center">
+        <h2 class="font-bold text-[42px] xs:text-[30px]">Our Service </h2>
+        <p class="mt-[30px]">We turn information into actionable insights We work to understand your issues
+          <br>
+          and are driven to ask better questions in the pursuit of making work.</p>
+      </div>
+      <!-- Services Bottom Section -->
+      <div class="mt-[40px] grid grid-cols-3 gap-x-[30px] gap-y-[40px] lg:grid-cols-2 md:grid-cols-1">
+        <!-- Service box -->
+        <div class="relative px-[23px] py-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+          <div class="bg-gradient-to-br from-[#8A7FD9] to-[#402F8F] size-[74px] rounded-full flex justify-center items-center">
+            <img src="./img/svg/service-img1.svg" alt="service">
+          </div>
+          <h4 class="mt-[20px] text-[24px] xl:text-[19px]">Order Management</h4>
+          <p class="mt-[17px]">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+          <a href="#" class="mt-[24px] flex gap-[1rem] items-center">
+            Learn More
+            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.121 0.293031C7.93353 0.480558 7.82821 0.734866 7.82821 1.00003C7.82821 1.26519 7.93353 1.5195 8.121 1.70703L11.413 5.00003L1 5.00703C0.734784 5.00703 0.48043 5.11239 0.292893 5.29992C0.105357 5.48746 0 5.74181 0 6.00703C0 6.27225 0.105357 6.5266 0.292893 6.71414C0.48043 6.90167 0.734784 7.00703 1 7.00703L11.414 7.00003L8.121 10.293C8.02549 10.3853 7.94931 10.4956 7.8969 10.6176C7.84449 10.7396 7.8169 10.8709 7.81575 11.0036C7.8146 11.1364 7.8399 11.2681 7.89018 11.391C7.94046 11.5139 8.01471 11.6255 8.10861 11.7194C8.2025 11.8133 8.31415 11.8876 8.43705 11.9379C8.55994 11.9881 8.69162 12.0134 8.8244 12.0123C8.95718 12.0111 9.0884 11.9835 9.2104 11.9311C9.33241 11.8787 9.44275 11.8025 9.535 11.707L13.121 8.12203C13.3996 7.84345 13.6207 7.51271 13.7715 7.1487C13.9222 6.78469 13.9999 6.39454 13.9999 6.00053C13.9999 5.60652 13.9222 5.21637 13.7715 4.85236C13.6207 4.48835 13.3996 4.15761 13.121 3.87903L9.535 0.293031C9.34747 0.10556 9.09316 0.000244141 8.828 0.000244141C8.56284 0.000244141 8.30853 0.10556 8.121 0.293031Z" fill="white"/>
+            </svg>              
+          </a>
+          <!-- Shape -->
+           <div class="bg-[#1D4ED8C9] top-[-130px] w-[293px] h-[361px] rounded-full z-[-1] blur-[200px] absolute"></div>
+        </div>
+        <!-- Service box -->
+        <div class="relative px-[23px] py-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+          <div class="bg-gradient-to-br from-[#D97F95] to-[#923250] size-[74px] rounded-full flex justify-center items-center">
+            <img src="./img/svg/service-img2.svg" alt="service">
+          </div>
+          <h4 class="mt-[20px] text-[24px] xl:text-[19px]">Social Assistant</h4>
+          <p class="mt-[17px]">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+          <a href="#" class="mt-[24px] flex gap-[1rem] items-center">
+            Learn More
+            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.121 0.293031C7.93353 0.480558 7.82821 0.734866 7.82821 1.00003C7.82821 1.26519 7.93353 1.5195 8.121 1.70703L11.413 5.00003L1 5.00703C0.734784 5.00703 0.48043 5.11239 0.292893 5.29992C0.105357 5.48746 0 5.74181 0 6.00703C0 6.27225 0.105357 6.5266 0.292893 6.71414C0.48043 6.90167 0.734784 7.00703 1 7.00703L11.414 7.00003L8.121 10.293C8.02549 10.3853 7.94931 10.4956 7.8969 10.6176C7.84449 10.7396 7.8169 10.8709 7.81575 11.0036C7.8146 11.1364 7.8399 11.2681 7.89018 11.391C7.94046 11.5139 8.01471 11.6255 8.10861 11.7194C8.2025 11.8133 8.31415 11.8876 8.43705 11.9379C8.55994 11.9881 8.69162 12.0134 8.8244 12.0123C8.95718 12.0111 9.0884 11.9835 9.2104 11.9311C9.33241 11.8787 9.44275 11.8025 9.535 11.707L13.121 8.12203C13.3996 7.84345 13.6207 7.51271 13.7715 7.1487C13.9222 6.78469 13.9999 6.39454 13.9999 6.00053C13.9999 5.60652 13.9222 5.21637 13.7715 4.85236C13.6207 4.48835 13.3996 4.15761 13.121 3.87903L9.535 0.293031C9.34747 0.10556 9.09316 0.000244141 8.828 0.000244141C8.56284 0.000244141 8.30853 0.10556 8.121 0.293031Z" fill="white"/>
+            </svg>              
+          </a>
+          <!-- Shape -->
+          <div class="bg-[#D946EF6E] top-[-90px] right-[-30px] w-[293px] h-[361px] rounded-full z-[-1] blur-[200px] absolute"></div>
+        </div>
+        <!-- Service box -->
+        <div class="relative px-[23px] py-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+          <div class="bg-gradient-to-br from-[#84D8ED] to-[#4292BB] size-[74px] rounded-full flex justify-center items-center">
+            <img src="./img/svg/service-img3.svg" alt="service">
+          </div>
+          <h4 class="mt-[20px] text-[24px] xl:text-[19px]">Crypto Platform</h4>
+          <p class="mt-[17px]">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+          <a href="#" class="mt-[24px] flex gap-[1rem] items-center">
+            Learn More
+            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.121 0.293031C7.93353 0.480558 7.82821 0.734866 7.82821 1.00003C7.82821 1.26519 7.93353 1.5195 8.121 1.70703L11.413 5.00003L1 5.00703C0.734784 5.00703 0.48043 5.11239 0.292893 5.29992C0.105357 5.48746 0 5.74181 0 6.00703C0 6.27225 0.105357 6.5266 0.292893 6.71414C0.48043 6.90167 0.734784 7.00703 1 7.00703L11.414 7.00003L8.121 10.293C8.02549 10.3853 7.94931 10.4956 7.8969 10.6176C7.84449 10.7396 7.8169 10.8709 7.81575 11.0036C7.8146 11.1364 7.8399 11.2681 7.89018 11.391C7.94046 11.5139 8.01471 11.6255 8.10861 11.7194C8.2025 11.8133 8.31415 11.8876 8.43705 11.9379C8.55994 11.9881 8.69162 12.0134 8.8244 12.0123C8.95718 12.0111 9.0884 11.9835 9.2104 11.9311C9.33241 11.8787 9.44275 11.8025 9.535 11.707L13.121 8.12203C13.3996 7.84345 13.6207 7.51271 13.7715 7.1487C13.9222 6.78469 13.9999 6.39454 13.9999 6.00053C13.9999 5.60652 13.9222 5.21637 13.7715 4.85236C13.6207 4.48835 13.3996 4.15761 13.121 3.87903L9.535 0.293031C9.34747 0.10556 9.09316 0.000244141 8.828 0.000244141C8.56284 0.000244141 8.30853 0.10556 8.121 0.293031Z" fill="white"/>
+            </svg>              
+          </a>
+          <!-- Shape -->
+          <div class="bg-[#5141DA] top-[-130px] right-[-30px] w-[250px] h-[340px] rounded-full z-[-1] blur-[200px] absolute"></div>
+        </div>
+        <!-- Service box -->
+        <div class="relative px-[23px] py-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+          <div class="bg-gradient-to-br from-[#92EFC3] to-[#2F8F5B] size-[74px] rounded-full flex justify-center items-center">
+            <img src="./img/svg/service-img4.svg" alt="service">
+          </div>
+          <h4 class="mt-[20px] text-[24px] xl:text-[19px]">Smart Trading Modules</h4>
+          <p class="mt-[17px]">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+          <a href="#" class="mt-[24px] flex gap-[1rem] items-center">
+            Learn More
+            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.121 0.293031C7.93353 0.480558 7.82821 0.734866 7.82821 1.00003C7.82821 1.26519 7.93353 1.5195 8.121 1.70703L11.413 5.00003L1 5.00703C0.734784 5.00703 0.48043 5.11239 0.292893 5.29992C0.105357 5.48746 0 5.74181 0 6.00703C0 6.27225 0.105357 6.5266 0.292893 6.71414C0.48043 6.90167 0.734784 7.00703 1 7.00703L11.414 7.00003L8.121 10.293C8.02549 10.3853 7.94931 10.4956 7.8969 10.6176C7.84449 10.7396 7.8169 10.8709 7.81575 11.0036C7.8146 11.1364 7.8399 11.2681 7.89018 11.391C7.94046 11.5139 8.01471 11.6255 8.10861 11.7194C8.2025 11.8133 8.31415 11.8876 8.43705 11.9379C8.55994 11.9881 8.69162 12.0134 8.8244 12.0123C8.95718 12.0111 9.0884 11.9835 9.2104 11.9311C9.33241 11.8787 9.44275 11.8025 9.535 11.707L13.121 8.12203C13.3996 7.84345 13.6207 7.51271 13.7715 7.1487C13.9222 6.78469 13.9999 6.39454 13.9999 6.00053C13.9999 5.60652 13.9222 5.21637 13.7715 4.85236C13.6207 4.48835 13.3996 4.15761 13.121 3.87903L9.535 0.293031C9.34747 0.10556 9.09316 0.000244141 8.828 0.000244141C8.56284 0.000244141 8.30853 0.10556 8.121 0.293031Z" fill="white"/>
+            </svg>              
+          </a>
+          <!-- Shape -->
+          <div class="bg-[#D946EF6E] bottom-0 left-[-118px] w-[250px] h-[280px] rounded-full z-[-1] blur-[200px] absolute"></div>
+        </div>
+        <!-- Service box -->
+        <div class="px-[23px] py-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+          <div class="bg-gradient-to-br from-[#BC7FD9] to-[#923283] size-[74px] rounded-full flex justify-center items-center">
+            <img src="./img/svg/service-img5.svg" alt="service">
+          </div>
+          <h4 class="mt-[20px] text-[24px] xl:text-[19px]">Analyzer of the News</h4>
+          <p class="mt-[17px]">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+          <a href="#" class="mt-[24px] flex gap-[1rem] items-center">
+            Learn More
+            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.121 0.293031C7.93353 0.480558 7.82821 0.734866 7.82821 1.00003C7.82821 1.26519 7.93353 1.5195 8.121 1.70703L11.413 5.00003L1 5.00703C0.734784 5.00703 0.48043 5.11239 0.292893 5.29992C0.105357 5.48746 0 5.74181 0 6.00703C0 6.27225 0.105357 6.5266 0.292893 6.71414C0.48043 6.90167 0.734784 7.00703 1 7.00703L11.414 7.00003L8.121 10.293C8.02549 10.3853 7.94931 10.4956 7.8969 10.6176C7.84449 10.7396 7.8169 10.8709 7.81575 11.0036C7.8146 11.1364 7.8399 11.2681 7.89018 11.391C7.94046 11.5139 8.01471 11.6255 8.10861 11.7194C8.2025 11.8133 8.31415 11.8876 8.43705 11.9379C8.55994 11.9881 8.69162 12.0134 8.8244 12.0123C8.95718 12.0111 9.0884 11.9835 9.2104 11.9311C9.33241 11.8787 9.44275 11.8025 9.535 11.707L13.121 8.12203C13.3996 7.84345 13.6207 7.51271 13.7715 7.1487C13.9222 6.78469 13.9999 6.39454 13.9999 6.00053C13.9999 5.60652 13.9222 5.21637 13.7715 4.85236C13.6207 4.48835 13.3996 4.15761 13.121 3.87903L9.535 0.293031C9.34747 0.10556 9.09316 0.000244141 8.828 0.000244141C8.56284 0.000244141 8.30853 0.10556 8.121 0.293031Z" fill="white"/>
+            </svg>              
+          </a>
+        </div>
+        <!-- Service box -->
+        <div class="relative px-[23px] py-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+          <div class="bg-gradient-to-br from-[#8684ED] to-[#4247BB] size-[74px] rounded-full flex justify-center items-center">
+            <img src="./img/svg/service-img6.svg" alt="service">
+          </div>
+          <h4 class="mt-[20px] text-[21px] xl:text-[19px]">Module of Price Notification</h4>
+          <p class="mt-[17px]">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+          <a href="#" class="mt-[24px] flex gap-[1rem] items-center">
+            Learn More
+            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.121 0.293031C7.93353 0.480558 7.82821 0.734866 7.82821 1.00003C7.82821 1.26519 7.93353 1.5195 8.121 1.70703L11.413 5.00003L1 5.00703C0.734784 5.00703 0.48043 5.11239 0.292893 5.29992C0.105357 5.48746 0 5.74181 0 6.00703C0 6.27225 0.105357 6.5266 0.292893 6.71414C0.48043 6.90167 0.734784 7.00703 1 7.00703L11.414 7.00003L8.121 10.293C8.02549 10.3853 7.94931 10.4956 7.8969 10.6176C7.84449 10.7396 7.8169 10.8709 7.81575 11.0036C7.8146 11.1364 7.8399 11.2681 7.89018 11.391C7.94046 11.5139 8.01471 11.6255 8.10861 11.7194C8.2025 11.8133 8.31415 11.8876 8.43705 11.9379C8.55994 11.9881 8.69162 12.0134 8.8244 12.0123C8.95718 12.0111 9.0884 11.9835 9.2104 11.9311C9.33241 11.8787 9.44275 11.8025 9.535 11.707L13.121 8.12203C13.3996 7.84345 13.6207 7.51271 13.7715 7.1487C13.9222 6.78469 13.9999 6.39454 13.9999 6.00053C13.9999 5.60652 13.9222 5.21637 13.7715 4.85236C13.6207 4.48835 13.3996 4.15761 13.121 3.87903L9.535 0.293031C9.34747 0.10556 9.09316 0.000244141 8.828 0.000244141C8.56284 0.000244141 8.30853 0.10556 8.121 0.293031Z" fill="white"/>
+            </svg>              
+          </a>
+          <!-- Shape -->
+          <div class="bg-[#1D4ED8C9] bottom-[-176px] right-[-107px] w-[250px] h-[280px] rounded-full z-[-1] blur-[200px] absolute"></div>
+        </div>
+      </div>
+      
+  </div>
+
+  <!-- About Projects -->
+  <div class="w-[1200px] mx-auto mt-[120px] xl:w-[1000px] lg:w-[800px] lg:mt-[80px] md:w-[600px] sm:w-[400px] xs:w-full xs:px-[1rem]">
+    <div class="flex gap-[35px] lg:flex-wrap lg:justify-center">
+      <div class="relative lg:w-1/2">
+        <img src="./img/man-working-using-virtual-reality1.png" alt="">
+        <!-- Shape -->
+        <div class="bg-[#1D4ED8C9] top-[-30px] left-[70px] w-[310px] h-[540px] rounded-full z-[-1] blur-[200px] absolute"></div>
+      </div>
+      <div class="w-3/4 flex flex-col justify-center">
+        <h2 class="font-bold text-[42px] xl:text-[37px] md:text-[31px] sm:text-[20px]">We complete every projects <br> extra care as customer need</h2>
+        <p class="mt-[30px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. </p>
+        <a href="#" class="mt-[30px] py-[7px] px-[14px] bg-gradient-to-r from-[#2563EB] to-[#D946EF] w-fit rounded-[4px] text-[14px] transition-all hover:scale-105">Read more</a>
+      </div>
+    </div>
+    <div class="flex gap-[35px] lg:flex-wrap-reverse lg:justify-center sm:mt-[2rem]">
+      <div class="relative w-3/4 flex flex-col justify-center">
+        <h2 class="font-bold text-[42px] xl:text-[37px] md:text-[31px] sm:text-[20px]">We complete every projects <br> extra care as customer need</h2>
+        <p class="mt-[30px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. </p>
+        <a href="#" class="mt-[30px] py-[7px] px-[14px] bg-gradient-to-r from-[#2563EB] to-[#D946EF] w-fit rounded-[4px] text-[14px] transition-all hover:scale-105">Read more</a>
+        <!-- Shape -->
+        <div class="bg-[#1D4ED8C9] top-[-50px] right-[-50px] w-[290px] h-[400px] rounded-full z-[-1] blur-[200px] absolute"></div>
+      </div>
+      <div class="lg:w-1/2">
+        <img src="./img/man-working-using-virtual-reality2.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Team -->
+  <div class="w-[1200px] mx-auto mt-[110px] xl:w-[1000px] lg:w-[800px] md:w-[600px] sm:w-[400px] xs:w-full xs:px-[1rem]">
+    <!-- About Team Top -->
+    <div class="text-center">
+      <h2 class="font-bold text-[42px] xs:text-[30px]">Met Our Team</h2>
+      <p class="font-normal mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis <br> accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+    </div>
+    <!-- About Team Content -->
+    <div class="relative grid grid-cols-4 justify-between mt-[40px] gap-4 lg:grid-cols-2 sm:grid-cols-1">
+      <!-- About Team person -->
+      <div class="relative py-[32px] px-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+        <img src="./img/person1.png" alt="person">
+        <h4 class="text-[28px] xl:text-[22px]">Sunny Khan</h4>
+        <p class="font-normal text-[13px]">Executive officer</p>
+        <div class="flex gap-[12px] mt-[12px]">
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/skype.png" alt="skype"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/linkedin.png" alt="linkedin"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/twitter.png" alt="twitter"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/facebook.png" alt="facebook"></a>
+        </div>
+        <!-- Shape -->
+        <div class="bg-[#D946EF6E] top-[-100px] left-[-125px] w-[250px] h-[370px] rounded-full z-[-1] blur-[200px] absolute"></div>
+      </div>
+      <!-- About Team person -->
+      <div class="relative py-[32px] px-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+        <img src="./img/person2.png" alt="person">
+        <h4 class="text-[28px] xl:text-[22px]">Alina Jesia</h4>
+        <p class="font-normal text-[13px]">UX/UI DESIGNER</p>
+        <div class="flex gap-[12px] mt-[12px]">
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/skype.png" alt="skype"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/linkedin.png" alt="linkedin"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/twitter.png" alt="twitter"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/facebook.png" alt="facebook"></a>
+        </div>
+        <!-- Shape -->
+        <div class="bg-[#5141DA] top-[-200px] left-[-50px] w-[250px] h-[337px] rounded-full z-[-1] blur-[200px] absolute"></div>
+      </div>
+      <!-- About Team person -->
+      <div class="relative py-[32px] px-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+        <img src="./img/person3.png" alt="person">
+        <h4 class="text-[28px] xl:text-[22px]">Alex Sohag</h4>
+        <p class="font-normal text-[13px]">BUSINESS DEVELOPMENT</p>
+        <div class="flex gap-[12px] mt-[12px]">
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/skype.png" alt="skype"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/linkedin.png" alt="linkedin"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/twitter.png" alt="twitter"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/facebook.png" alt="facebook"></a>
+        </div>
+        <!-- Shape -->
+        <div class="bg-[#1D4ED8C9] top-[-300px] right-[-30px] w-[290px] h-[360px] rounded-full z-[-1] blur-[200px] absolute"></div>
+      </div>
+      <!-- About Team person -->
+      <div class="py-[32px] px-[37px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] flex flex-col items-center transition-all hover:scale-105 cursor-pointer">
+        <img src="./img/person4.png" alt="person">
+        <h4 class="text-[28px] xl:text-[22px]">Afroza Mou</h4>
+        <p class="font-normal text-[13px]">Head of marketing</p>
+        <div class="flex gap-[12px] mt-[12px]">
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/skype.png" alt="skype"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/linkedin.png" alt="linkedin"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/twitter.png" alt="twitter"></a>
+          <a href="#" class="transition-all hover:scale-125"><img src="./img/facebook.png" alt="facebook"></a>
+        </div>
+      </div>
+      <!-- Shape -->
+      <div class="bg-[#D946EF6E] top-[0] right-[-500px] w-[250px] h-[330px] rounded-full z-[-1] blur-[200px] absolute"></div>
+    </div>
+  </div>
+
+  <!-- Newsletter Section -->
+  <div class="w-[1200px] mx-auto mt-[120px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-[34px] pt-[50px] pb-[38px] flex flex-col items-center xl:w-[1000px] lg:w-[800px] lg:px-[1rem] md:w-[600px] sm:w-[400px] sm:pt-[22px] sm:pb-[28px] xs:w-full">
+    <h3 class="font-bold text-[42px] xl:text-[38px] lg:text-[32px] md:text-[28px] sm:text-[22px] xs:text-[19px]">Subscribe to get the Latest News</h3>
+    <p class="font-normal mt-[13px] lg:text-center">We recommended you to subscribe to our newspaper,drop your email below to get daily update about us</p>
+
+    <form action="#" class="mt-[29px] max-w-[860px] w-full h-[80px] bg-[#ffffff10] rounded-[40px] relative">
+      <input type="email" placeholder="Enter your email addres" required class="outline-none bg-transparent placeholder:text-white pl-[44px] h-full w-full sm:pl-[16px] xs:text-[14px]">
+      <button type="submit" class="pl-[25px] pr-[49px] py-[15px] my-auto  absolute top-[10px] right-[10px] bottom-[10px] bg-gradient-to-r from-[#2563EB] to-[#D946EF] flex items-center gap-[8px] rounded-[30px] text-[20px] transition-all hover:scale-105 sm:pl-[10px] sm:pr-[10px] sm:text-[15px] xs:w-max">
+        <img src="./img/svg/send.svg" alt="Send">
+        Subscribe
+      </button>
+      <!-- Shape -->
+      <div class="bg-[#923283] bottom-[-70px] right-[200px] w-[250px] h-[340px] rounded-full z-[-1] blur-[200px] absolute"></div>
+    </form>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class=" mt-[98px]">
+    <!-- Footer Content -->
+    <div class="w-[1200px] mx-auto flex justify-between mb-[32px] xl:w-[1000px] lg:w-[800px] lg:grid lg:grid-cols-3 lg:gap-y-[4rem] md:w-[600px] md:grid-cols-2 sm:w-[400px] sm:grid-cols-1 sm:gap-[2rem] xs:w-full xs:px-[1rem]">
+      <div class="flex flex-col gap-[10px]">
+        <div class="flex items-center gap-[7px] text-[20px]">
+          <img src="./img/svg/x-zone.svg" alt="xZone">
+          Zone.
+        </div>
+        <div class=" mt-[10px] transition-all hover:scale-105">
+          <a href="#" class="flex gap-[7px]">
+            <img src="./img/svg/Location.svg" alt="Location">
+            Dhaka, Bangladesh
+          </a>
+        </div>
+        <div class="transition-all hover:scale-105">
+          <a href="#" class="flex gap-[7px]">
+            <img src="./img/svg/Calling.svg" alt="Calling">
+            0943833399
+          </a>
+        </div>
+        <div class="transition-all hover:scale-105">
+          <a href="#" class="flex gap-[7px]">
+            <img src="./img/svg/Message.svg" alt="Message">
+            support@zone.com
+          </a>
+        </div>
+  
+        <div class="mt-[5px] flex gap-[15px]">
+          <a href="#" class="size-[32px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-full flex items-center justify-center transition-all hover:scale-125">
+            <img src="./img/svg/facebook.svg" alt="facebook">
+          </a>
+          <a href="#" class="size-[32px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-full flex items-center justify-center transition-all hover:scale-125">
+            <img src="./img/svg/twitter.svg" alt="twitter">
+          </a>
+          <a href="#" class="size-[32px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-full flex items-center justify-center transition-all hover:scale-125">
+            <img src="./img/svg/instagram.svg" alt="instagram">
+          </a>
+          <a href="#" class="size-[32px] bg-[#ffffff10] border-[#ffffff10] border-[1px] rounded-full flex items-center justify-center transition-all hover:scale-125">
+            <img src="./img/svg/pinterset.svg" alt="pinterset">
+          </a>
+        </div>
+      </div>
+
+      <div class="text-[18px] font-normal">
+        <h4>Service</h4>
+
+        <ul class=" flex flex-col gap-[1rem] mt-[1rem]">
+          <li class="transition-all hover:scale-105">
+            <a href="#">Order Management</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Social Assistant</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Crypto Platform</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Analyzer of the News</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="text-[18px] font-normal">
+        <h4>Company</h4>
+
+        <ul class=" flex flex-col gap-[1rem] mt-[1rem]">
+          <li class="transition-all hover:scale-105">
+            <a href="#">About Us</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">News</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Our trusted partner</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">New users FAQ</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="text-[18px] font-normal">
+        <h4>Supports</h4>
+
+        <ul class=" flex flex-col gap-[1rem] mt-[1rem]">
+          <li class="transition-all hover:scale-105">
+            <a href="#">Help center</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Feedbcak</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Contact us</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Terms conditins</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="text-[18px] font-normal">
+        <h4>Resources</h4>
+
+        <ul class=" flex flex-col gap-[1rem] mt-[1rem]">
+          <li class="transition-all hover:scale-105">
+            <a href="#">Download app</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Blog</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">What’s new</a>
+          </li>
+          <li class="transition-all hover:scale-105">
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="w-full h-[1px] bg-[#969696]"></div>
+    <!-- CopyRight Section -->
+    <div class="w-[1200px] mx-auto mt-[32px] flex justify-between xl:w-[1000px] lg:w-[800px] md:w-[600px] sm:w-[400px] sm:flex-wrap sm:gap-[1rem] xs:w-full xs:px-[1rem]">
+      <div>
+        © 2021 Zone. - All rights reserved.
+      </div>
+      <div class="flex gap-[53px] md:gap-[30px]">
+        <a href="#" class="relative after:absolute after:bottom-[-5px] after:left-0 after:right-0 after:mx-auto after:transition-all after:bg-gradient-to-r after:from-[#D946EF] after:via-[#2563EB] after:to-[#D946EF] after:w-0 after:h-[1px] hover:after:w-full">Privacy</a>
+        <a href="#" class="relative after:absolute after:bottom-[-5px] after:left-0 after:right-0 after:mx-auto after:transition-all after:bg-gradient-to-r after:from-[#D946EF] after:via-[#2563EB] after:to-[#D946EF] after:w-0 after:h-[1px] hover:after:w-full">Security</a>
+        <a href="#" class="relative after:absolute after:bottom-[-5px] after:left-0 after:right-0 after:mx-auto after:transition-all after:bg-gradient-to-r after:from-[#D946EF] after:via-[#2563EB] after:to-[#D946EF] after:w-0 after:h-[1px] hover:after:w-full">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
